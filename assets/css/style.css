@@ -1,0 +1,29 @@
+.headshot {
+  border-radius: 100%;
+  width: 50%;
+  border: 1px solid #333333;
+}
+
+.logo {
+  border-radius: 4px;
+  border: 1px solid #333333;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logoContainerDiv {
+  margin: 0 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageBodyContent {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}

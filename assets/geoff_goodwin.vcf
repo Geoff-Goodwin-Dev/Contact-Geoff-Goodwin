@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Geoff Goodwin
+N:Goodwin;Geoff;;;
+EMAIL;TYPE=INTERNET;TYPE=WORK:ggoodwin.dev@gmail.com
+TEL;TYPE=CELL:(404) 453-3696
+item1.ADR:;;;;;;
+item1.X-ABLabel:
+item2.ORG:Freelance Developer
+item2.X-ABLabel:
+item3.TITLE:Full Stack Web Developer
+item3.X-ABLabel:
+item4.URL:https\://www.linkedin.com/in/geofflgoodwin/
+item4.X-ABLabel:PROFILE
+item5.URL:https\://github.com/Geoff-Goodwin-Dev
+item5.X-ABLabel:homePage
+END:VCARD

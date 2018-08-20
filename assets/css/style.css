@@ -67,7 +67,7 @@ a {
 }
 
 .pageBodyContent {
-  max-width: 360px;
+  max-width: 400px;
   min-width: 280px;
   margin: 0 auto 10px auto;
   text-align: center;
@@ -83,7 +83,7 @@ a {
   position: absolute;
   transform: translateX(-50%);
   top: -33px;
-  left: 13%;
+  left: 12%;
   /*left: 38%;*/
   /*left: 62%;*/
   /*left: 87%;*/
@@ -98,7 +98,7 @@ a {
 }
 
 #input {
-  width: 80%;
+  width: 70%;
   color: #180929;
   background-color: #EDC0B8;
   font-size: 12px;
@@ -107,8 +107,35 @@ a {
   border: 2px solid #180929;
 }
 
-#copyIcon {
+.icon {
   height: 35px;
   border: 2px solid #180929;
   border-radius: 100%;
+  margin-left: 5px;
+}
+
+#contactDownloadBtn {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #EDC0B8;
+  border: 2px solid #180929;
+  display: flex;
+  justify-content: center;
+}
+
+#contactDownloadBtn:hover {
+  -webkit-box-shadow: 0 0 10px #EDC0B8;
+  -moz-box-shadow: 0 0 10px #EDC0B8;
+  box-shadow: 0 0 10px #EDC0B8;
+}
+
+#vcfIcon {
+  height: 35px;
+}
+
+#vcfDownloadCaption {
+  margin: 0 0 0 15px;
+  line-height: 35px;
+  color: #180929;
+  font-size: 18px;
 }

@@ -19,7 +19,7 @@
     <hr/>
 
     <a href="./assets/geoff_goodwin.vcf" download="geoff_goodwin.vcf">
-      <div id="contactDownloadBtn" class="boxShadow">
+      <div id="contactDownloadBtn" class="boxShadow btn">
         <img id="vcfIcon" src="./assets/images/icon_vcf.png" alt="contact icon">
         <p id="vcfDownloadCaption">Download VCF</p>
       </div>
@@ -28,27 +28,23 @@
     <h2>Connect -or- Contact</h2>
     <div class="row">
       <div class="logoContainerDiv">
-        <a href="https://www.linkedin.com/in/geofflgoodwin/" target="_blank">
-          <img class="logo boxShadow" src="./assets/images/logo_linkedin.png" alt="LinkedIn logo">
-        </a>
+        <img id="linkedIn" class="logo boxShadow btn" src="./assets/images/logo_linkedin.png"
+             onclick="logoClick('linkedIn')" alt="LinkedIn logo">
       </div>
 
       <div class="logoContainerDiv">
-        <a href="https://github.com/Geoff-Goodwin-Dev" target="_blank">
-          <img class="logo boxShadow" src="./assets/images/logo_github.png" alt="GitHub logo">
-        </a>
+        <img id="gitHub" class="logo boxShadow btn" src="./assets/images/logo_github.png"
+             onclick="logoClick('gitHub')" alt="GitHub logo">
       </div>
 
       <div class="logoContainerDiv">
-        <a href="mailto: ggoodwin.dev@gmail.com" target="_blank">
-          <img class="logo boxShadow" src="./assets/images/logo_gmail.png" alt="Gmail logo">
-        </a>
+        <img id="email" class="logo boxShadow btn" src="./assets/images/logo_gmail.png"
+             onclick="logoClick('email')" alt="Gmail logo">
       </div>
 
       <div class="logoContainerDiv">
-        <a href="tel:4044533696" target="_blank">
-          <img class="logo boxShadow" src="./assets/images/logo_phone.png" alt="phone logo">
-        </a>
+        <img id="phone" class="logo boxShadow btn" src="./assets/images/logo_phone.png"
+             onclick="logoClick('phone')" alt="phone logo">
       </div>
 
     </div>
@@ -59,8 +55,10 @@
     <img id="selector" src="./assets/images/selector.png" alt="">
     <form id="form">
       <input id="input" type="text" value="https://www.linkedin.com/in/geofflgoodwin/" readonly>
-      <img id="copyIcon" class="icon boxShadow" src="./assets/images/icon_copy.png" alt="copy icon">
-      <img id="goIcon" class="icon boxShadow" src="./assets/images/icon_go.png" alt="go icon">
+      <img id="copyIcon" class="icon boxShadow btn" src="./assets/images/icon_copy.png" onclick="copyText()" alt="copy icon">
+      <a id="goLink" href="https://www.linkedin.com/in/geofflgoodwin/" target="_blank">
+        <img id="goIcon" class="icon boxShadow btn" src="./assets/images/icon_go.png" alt="go icon">
+      </a>
     </form>
   </div>
   <script src="./assets/javascript/script.js"></script>

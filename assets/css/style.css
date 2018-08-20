@@ -47,11 +47,11 @@ hr {
   margin-bottom: 10px;
 }
 
-.logo:hover {
-  -webkit-box-shadow: 0 0 10px #EDC0B8;
-  -moz-box-shadow: 0 0 10px #EDC0B8;
-  box-shadow: 0 0 10px #EDC0B8;
-}
+/*.logo:hover {*/
+  /*-webkit-box-shadow: 0 0 10px #EDC0B8;*/
+  /*-moz-box-shadow: 0 0 10px #EDC0B8;*/
+  /*box-shadow: 0 0 10px #EDC0B8;*/
+/*}*/
 
 a {
   text-decoration: none;
@@ -99,12 +99,15 @@ a {
 
 #input {
   width: 70%;
-  color: #180929;
-  background-color: #EDC0B8;
+  color: #EDC0B8;
+  background-color: #793445;
   font-size: 12px;
   padding: 5px 5px;
   height: 25px;
   border: 2px solid #180929;
+  -webkit-box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .icon {
@@ -123,10 +126,16 @@ a {
   justify-content: center;
 }
 
-#contactDownloadBtn:hover {
+.btn:hover {
   -webkit-box-shadow: 0 0 10px #EDC0B8;
   -moz-box-shadow: 0 0 10px #EDC0B8;
   box-shadow: 0 0 10px #EDC0B8;
+}
+
+.selectedLogo {
+  -webkit-box-shadow: 0 0 12px #EDC0B8;
+  -moz-box-shadow: 0 0 12px #EDC0B8;
+  box-shadow: 0 0 12px #EDC0B8;
 }
 
 #vcfIcon {

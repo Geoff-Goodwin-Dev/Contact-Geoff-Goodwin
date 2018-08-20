@@ -43,15 +43,16 @@ hr {
 }
 
 .logo {
-  border-radius: 6px;
+  width: 80%;
+  border-radius: 100%;
   border: 1px solid #EDC0B8;
   margin-bottom: 10px;
 }
 
 .logo:hover {
-  -webkit-box-shadow: 0 0 8px #EDC0B8;
-  -moz-box-shadow: 0 0 8px #EDC0B8;
-  box-shadow: 0 0 8px #EDC0B8;
+  -webkit-box-shadow: 0 0 10px #EDC0B8;
+  -moz-box-shadow: 0 0 10px #EDC0B8;
+  box-shadow: 0 0 10px #EDC0B8;
 }
 
 a {
@@ -59,6 +60,7 @@ a {
 }
 
 .logoContainerDiv {
+  width: 25%;
 }
 
 .row {
@@ -68,8 +70,23 @@ a {
 
 .pageBodyContent {
   max-width: 360px;
-  margin: 0 auto;
+  min-width: 280px;
+  margin: 0 auto 10px auto;
   text-align: center;
   background-color: #B590A3;
   border: 2px solid #EDC0B8;
+}
+
+#connectionDetails {
+  position: relative;
+}
+
+#selector {
+  position: absolute;
+  transform: translateX(-50%);
+  top: -33px;
+  left: 13%;
+  /*left: 38%;*/
+  /*left: 62%;*/
+  /*left: 87%;*/
 }
